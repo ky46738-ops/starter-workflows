@@ -1,0 +1,25 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="20" width="80" height="30" fill="lightblue"/>
+  <text x="20" y="40">Input</text>
+
+  <rect x="110" y="20" width="80" height="30" fill="lightgreen"/>
+  <text x="120" y="40">Detect</text>
+
+  <rect x="210" y="20" width="80" height="30" fill="lightgreen"/>
+  <text x="220" y="40">Classify</text>
+
+  <rect x="310" y="20" width="80" height="30" fill="lightgreen"/>
+  <text x="320" y="40">Route</text>
+
+  <rect x="410" y="20" width="80" height="30" fill="lightgreen"/>
+  <text x="420" y="40">Convert</text>
+
+  <rect x="510" y="20" width="80" height="30" fill="lightgreen"/>
+  <text x="520" y="40">Container</text>
+
+  <rect x="610" y="20" width="80" height="30" fill="lightgreen"/>
+  <text x="620" y="40">Index</text>
+
+  <rect x="710" y="20" width="80" height="30" fill="lightgreen"/>
+  <text x="720" y="40">Output</text>
+</svg>
