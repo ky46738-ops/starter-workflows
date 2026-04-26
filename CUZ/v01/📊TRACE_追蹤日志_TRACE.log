@@ -1,0 +1,8 @@
+TOOL: GitHub.create_file
+ACTION: init README
+REPO: starter-workflows
+STATUS: SUCCESS
+COMMIT: 761b30210f091868763eb688509d5139042120fe
+FLOW:
+Input -> Detect -> Classify -> Route -> Convert -> Container -> Index -> Output -> Reverse
+STATE: TRACE_INIT_V01
