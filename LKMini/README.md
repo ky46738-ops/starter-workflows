@@ -6,6 +6,10 @@ Mini is the minimal reversible world seed.
 Mini 不是小功能。  
 Mini 是最小可逆宇宙種子。
 
+## Author
+
+Kevin Yang
+
 ## Core
 
 A = A  
@@ -41,3 +45,7 @@ A world object must be identifiable, locatable, verifiable, and reversible.
 🧩LK Mini 是最小可逆世界核心。  
 它不是平台，不是 App，不是完整引擎。  
 它是一顆公開世界種子。
+
+## Attribution
+
+Please attribute LK Mini public seed materials to Kevin Yang.
