@@ -1,0 +1,11 @@
+{
+  "status": "seed_v0",
+  "snapshot_type": "public_seed",
+  "core_rule": "A = A",
+  "world": "reversible",
+  "seed_commit": "e97155a067cd62a7b0f96242f5c6e79a36a307a9",
+  "created_at_tpe": "20260513-042721_TPE",
+  "repository": "ky46738-ops/starter-workflows",
+  "entry": "LKMini/LKMini.svg",
+  "boundary": "public_seed_only"
+}
