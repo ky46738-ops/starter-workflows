@@ -1,0 +1,12 @@
+{
+  "engine_id": "",
+  "engine_name": "",
+  "visibility": "private",
+  "sha256_anchor": "",
+  "locator": "",
+  "manifest_ref": "",
+  "snapshot_ref": "",
+  "reversechain_ref": "",
+  "public_disclosure": "hash_only",
+  "rule": "A = A"
+}
