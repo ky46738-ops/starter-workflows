@@ -1,7 +1,9 @@
-# 範本倉庫保護：此檔只允許手動測試，避免每次推送範本時誤部署 Pages。
-name: 手動測試 Jekyll Pages 範本
+# 🧩LKmini 分支自動部署 GitHub Pages
+name: 🧩LKmini 自動部署 Jekyll Pages
 
 on:
+  push:
+    branches: ["🧩LKmini"]
   workflow_dispatch:
 
 permissions:
@@ -10,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages-template-test"
+  group: "pages-lkmini"
   cancel-in-progress: false
 
 jobs:
@@ -36,6 +38,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: 手動部署至 GitHub Pages
+      - name: 部署至 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
