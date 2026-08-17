@@ -1,0 +1,9 @@
+{
+  "IdentityA": "🪝提交前檢查｜PreCommit",
+  "GitNativeEndpoint": "pre-commit",
+  "Installer": "🔧安裝勾子｜InstallHooks",
+  "BidirectionalMeaning": "同一功能／同一身份映射；環境名稱可不同",
+  "SourceIsCanonical": true,
+  "RootProtocol": "LKMINI://",
+  "ProjectionNotIdentity": true
+}
