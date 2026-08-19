@@ -1,90 +1,21 @@
-<p align="center">
-  <img src="https://avatars0.githubusercontent.com/u/44036562?s=100&v=4"/> 
-</p>
+# 🧱公開範本倉庫已安全鎖定
 
-## Starter Workflows
+狀態：CURRENT_PUBLIC_LOCKED
 
-These are the workflow files for helping people get started with GitHub Actions.  They're presented whenever you start to create a new GitHub Actions workflow.
+這個公開倉庫的 current head 已在 2026-08-19 Asia/Taipei 進入安全鎖定狀態。
 
-**If you want to get started with GitHub Actions, you can use these starter workflows by clicking the "Actions" tab in the repository where you want to create a workflow.**
+修復原因：原 current tree 含 LKMini 舊種子、PRIVATE_ENGINE 類檔名、Locator/Manifest 類公開路徑。
 
-<img src="https://d3vv6lp55qjaqc.cloudfront.net/items/353A3p3Y2x3c2t2N0c01/Image%202019-08-27%20at%203.25.07%20PM.png" max-width="75%"/>
+公開邊界：
 
-### Note
+- 不公開 Current / Locator / Manifest / ReverseChain / Snapshot / Package。
+- 不公開 FileID / ObjectID / MessageID / ThreadID / Revision / 私域 Commit 回執。
+- 不公開 Google Drive / Gmail / Library / Obsidian / Apple Shortcuts 私域接線。
+- 不公開膠囊、正式任務鏈、任務筆記本、HTML/PDF/ZIP/AICORE 正式投影封裝。
 
-Thank you for your interest in this GitHub repo, however, right now we are not taking contributions. 
+Kevin Yang 保留全部作者權與主權聲明。
 
-We continue to focus our resources on strategic areas that help our customers be successful while making developers' lives easier. While GitHub Actions remains a key part of this vision, we are allocating resources towards other areas of Actions and are not taking contributions to this repository at this time. The GitHub public roadmap is the best place to follow along for any updates on features we’re working on and what stage they’re in.
-
-We are taking the following steps to better direct requests related to GitHub Actions, including:
-
-1. We will be directing questions and support requests to our [Community Discussions area](https://github.com/orgs/community/discussions/categories/actions)
-
-2. High Priority bugs can be reported through Community Discussions or you can report these to our support team https://support.github.com/contact/bug-report.
-
-3. Security Issues should be handled as per our [security.md](security.md)
-
-We will still provide security updates for this project and fix major breaking changes during this time.
-
-You are welcome to still raise bugs in this repo.
-
-### Directory structure
-
-* [ci](ci): solutions for Continuous Integration workflows
-* [deployments](deployments): solutions for Deployment workflows
-* [automation](automation): solutions for automating workflows
-* [code-scanning](code-scanning): solutions for [Code Scanning](https://github.com/features/security)
-* [pages](pages): solutions for Pages workflows
-* [icons](icons): svg icons for the relevant template
-
-Each workflow must be written in YAML and have a `.yml` extension. They also need a corresponding `.properties.json` file that contains extra metadata about the workflow (this is displayed in the GitHub.com UI).
-
-For example: `ci/django.yml` and `ci/properties/django.properties.json`.
-
-### Valid properties
-
-* `name`: the name shown in onboarding. This property is unique within the repository.
-* `description`: the description shown in onboarding
-* `iconName`: the icon name in the relevant folder, for example, `django` should have an icon `icons/django.svg`. Only SVG is supported at this time. Another option is to use [octicon](https://primer.style/octicons/). The format to use an octicon is `octicon <<icon name>>`. Example: `octicon person`
-* `creator`: creator of the template shown in onboarding. All the workflow templates from an author will have the same `creator` field.
-* `categories`: the categories that it will be shown under. Choose at least one category from the list [here](#categories). Further, choose the categories from the list of languages available [here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) and the list of tech stacks available [here](https://github.com/github-starter-workflows/repo-analysis-partner/blob/main/tech_stacks.yml). When a user views the available templates, those templates that match the language and tech stacks will feature more prominently.
-
-### Categories
-* continuous-integration
-* deployment
-* testing
-* code-quality
-* code-review
-* dependency-management
-* monitoring
-* Automation
-* utilities
-* Pages
-* Hugo
-
-### Variables
-These variables can be placed in the starter workflow and will be substituted as detailed below:
-
-* `$default-branch`: will substitute the branch from the repository, for example `main` and `master`
-* `$protected-branches`: will substitute any protected branches from the repository
-* `$cron-daily`: will substitute a valid but random time within the day
-
-## How to test templates before publishing
-
-### Disable template for public
-The template author adds a `labels` array in the template's `properties.json` file with a label `preview`. This will hide the template from users, unless user uses query parameter `preview=true` in the URL.
-Example `properties.json` file:
-```json
-{
-    "name": "Node.js",
-    "description": "Build and test a Node.js project with npm.",
-    "iconName": "nodejs",
-    "categories": ["Continuous integration", "JavaScript", "npm", "React", "Angular", "Vue"],
-    "labels": ["preview"]
-}
-```
-
-For viewing the templates with `preview` label, provide query parameter `preview=true` to the  `new workflow` page URL. Eg. `https://github.com/<owner>/<repo_name>/actions/new?preview=true`.
-
-### Enable template for public
-Remove the `labels` array from `properties.json` file to publish the template to public
+Projection != Identity
+A_EQUALS_A=true
+PUBLIC_CURRENT_LOCKED=true
+LAST_REPAIRED_TPE=2026-08-19
