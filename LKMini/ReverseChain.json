@@ -1,0 +1,14 @@
+{
+  "root": "LKMini/LKMini.svg",
+  "seed_commit": "e97155a067cd62a7b0f96242f5c6e79a36a307a9",
+  "lineage": [
+    "SHA256",
+    "Manifest",
+    "Locator",
+    "Snapshot",
+    "ReverseChain",
+    "Package"
+  ],
+  "rule": "A = A",
+  "purpose": "Minimal reversible world reconstruction"
+}

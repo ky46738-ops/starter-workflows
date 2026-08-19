@@ -1,0 +1,31 @@
+{
+  "name": "LK Mini Public Seed Manifest",
+  "status": "seed_v0",
+  "core_rule": "A = A",
+  "repository": "ky46738-ops/starter-workflows",
+  "official_files": [
+    "LKMini/LKMini.svg",
+    "LKMini/README.md",
+    "LKMini/NOTICE.md",
+    "LKMini/LOCATOR.json",
+    "LKMini/LICENSE",
+    "LKMini/MANIFEST.json",
+    "LKMini/SHA256SUMS.txt",
+    "LKMini/PublicSeedRecord.md",
+    "LKMini/SNAPSHOT.json",
+    "LKMini/ReverseChain.json",
+    "LKMini/RESTORE.md",
+    "LKMini/SECURITY.md",
+    "LKMini/CONTRIBUTING.md",
+    "LKMini/VERSION.md"
+  ],
+  "minimal_loop": [
+    "SHA256",
+    "Manifest",
+    "Locator",
+    "Snapshot",
+    "ReverseChain",
+    "Package"
+  ],
+  "boundary": "Public seed only. Private runtime, credentials, personal records, and non-public infrastructure are excluded."
+}

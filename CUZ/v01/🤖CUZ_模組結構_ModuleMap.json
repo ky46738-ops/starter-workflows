@@ -1,0 +1,15 @@
+{
+  "version": "v01",
+  "modules": {
+    "input": "CUZ/1_input",
+    "detect": "CUZ/2_detect",
+    "classify": "CUZ/3_classify",
+    "route": "CUZ/4_route",
+    "convert": "CUZ/5_convert",
+    "container": "CUZ/6_container",
+    "index": "CUZ/7_index",
+    "output": "CUZ/8_output",
+    "reverse": "CUZ/9_reverse"
+  },
+  "flow": ["Input","Detect","Classify","Route","Convert","Container","Index","Output","Reverse"]
+}

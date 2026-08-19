@@ -1,0 +1,17 @@
+{
+  "name": "LK Mini",
+  "type": "minimal_reversible_world_seed",
+  "entry": "LKMini/LKMini.svg",
+  "readme": "LKMini/README.md",
+  "notice": "LKMini/NOTICE.md",
+  "status": "seed_v0",
+  "core_rule": "A = A",
+  "minimal_loop": [
+    "SHA256",
+    "Manifest",
+    "Locator",
+    "Snapshot",
+    "ReverseChain",
+    "Package"
+  ]
+}

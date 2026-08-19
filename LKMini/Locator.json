@@ -1,0 +1,20 @@
+{
+  "name": "LK Mini Locator",
+  "title_zh": "🧭LK Mini｜公開種子定位｜Locator",
+  "world": "LK Mini",
+  "status": "public_seed_v0.1",
+  "entry": "LKMini/README.md",
+  "seed": "LKMini/LKMini.svg",
+  "record": "LKMini/PublicSeedRecord.md",
+  "manifest": "LKMini/Manifest.json",
+  "sha256sums": "LKMini/SHA256SUMS.txt",
+  "core_rule": "A = A; Identity = SHA256; World = Reversible",
+  "human_sentence_zh": "Mini 不是小功能，Mini 是最小可逆宇宙種子。",
+  "anchors": {
+    "repo": "ky46738-ops/starter-workflows",
+    "public_seed_commit": "e97155a067cd62a7b0f96242f5c6e79a36a307a9",
+    "public_record_commit": "1787d68fbfe1f0b4a2a70c3ecc40f6080d20c551",
+    "readme_commit": "c48fb05d09fef463590efb682dbe18048f77b98e",
+    "manifest_commit": "c4c4844bb07b2f66256b6bf9ec93a1706051ea79"
+  }
+}

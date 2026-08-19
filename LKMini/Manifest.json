@@ -1,0 +1,42 @@
+{
+  "name": "LK Mini",
+  "title_zh": "🧩LK Mini｜最小可逆世界核心｜LKMini",
+  "version": "0.1-public-seed",
+  "type": "minimal_reversible_world_seed",
+  "status": "public_seed",
+  "created_at_tpe": "20260513-042721_TPE",
+  "updated_at_tpe": "20260513-043645_TPE",
+  "core_sentence_zh": "Mini 不是小功能，Mini 是最小可逆宇宙種子。",
+  "core_rule": "A = A; Identity = SHA256; World = Reversible",
+  "minimal_loop": [
+    "SHA256",
+    "Manifest",
+    "Locator",
+    "Snapshot",
+    "ReverseChain",
+    "Package"
+  ],
+  "objects": [
+    {
+      "path": "LKMini/LKMini.svg",
+      "role": "public_seed_svg_world_card",
+      "sha256": "db36f857101904b160c2a2b60240dfa7def2e49359e1c370e267b1ddc3e71e32"
+    },
+    {
+      "path": "LKMini/PublicSeedRecord.md",
+      "role": "public_seed_record",
+      "sha256": "c89678b9523ba034a60867a03e2cf79df255dbd7e008490676cb07df86bf3415"
+    },
+    {
+      "path": "LKMini/README.md",
+      "role": "human_readable_entry",
+      "sha256": "fbce7aca7140323a61816999b3b985b12a854519c98f8c411b394fdb6b9c2303"
+    }
+  ],
+  "anchors": {
+    "public_seed_commit": "e97155a067cd62a7b0f96242f5c6e79a36a307a9",
+    "public_record_commit": "1787d68fbfe1f0b4a2a70c3ecc40f6080d20c551",
+    "readme_commit": "c48fb05d09fef463590efb682dbe18048f77b98e",
+    "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34"
+  }
+}
