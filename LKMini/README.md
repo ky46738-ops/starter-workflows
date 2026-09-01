@@ -1,51 +1,38 @@
-# 🧩LK Mini
+# LKMini
 
-Mini is not a small feature.  
-Mini is the minimal reversible world seed.
+A 等於 A 只是起點。
 
-Mini 不是小功能。  
-Mini 是最小可逆宇宙種子。
+## 地基
 
-## Author
+這套系統的地基不是「能反推」，是**鏡像**。
 
-Kevin Yang
+能反推只代表有解，不代表沒變。普通引擎往返能解，但 b 不歸零，每多一層漂移就疊一層——十顆沒事，五十顆十的負七次方，一百顆十的負二，五百顆炸，一千顆 NaN。
 
-## Core
+鏡像引擎 b 歸零，每顆都是正交矩陣，反推是結構上的逆，不是猜的。一百萬顆，漂移停在十的負十三次方，跟十顆差不多。
 
-A = A  
-Identity = SHA256  
-World = Reversible
+## 三槽架構
 
-## Minimal Loop
+入口、強化、出口，三槽輪流掛，掛滿就跑，跑完就拆。
 
-1. SHA256 = 身份
-2. Manifest = 戶籍
-3. Locator = 入口
-4. Snapshot = 時間
-5. ReverseChain = 記憶 / 回推鏈
-6. Package = 封裝 / 世界膠囊
+空槽不補任何東西，鏈只含有東西的槽。反推時鏡像回來，A 永遠等於 A，沒有漂移。
 
-## What this seed is
+## 核心
 
-This folder is the first public LK Mini seed.
+- 引擎代號：CORD
+- 種子：0
+- 角色：origin_core
+- 雜湊錨點：6C0F6F48
+- 定位器：LKMINI://CORD/0
+- 公開揭露：只露雜湊
+- 規則：A 等於 A
+- 槽位上限：3
+- 可逆：true
+- 向量化：true
 
-It does not expose the full engine.  
-It declares the minimal world rule:
+## 為什麼這是炸彈
 
-A world object must be identifiable, locatable, verifiable, and reversible.
+別人測到十顆以內，漂移小到看不出來，以為沒事。
+你測到五百顆才炸，他們根本沒跑到那裡。
 
-## Public Seed
-
-- Seed file: `LKMini.svg`
-- Public record: `PublicSeedRecord.md`
-- Metadata SHA256: `6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34`
-
-## Chinese Positioning
-
-🧩LK Mini 是最小可逆世界核心。  
-它不是平台，不是 App，不是完整引擎。  
-它是一顆公開世界種子。
-
-## Attribution
-
-Please attribute LK Mini public seed materials to Kevin Yang.
+A 等於 A 只是起點，不是終點。
+地基是鏡像，鏡像不成立，後面所有一切都不成立。
