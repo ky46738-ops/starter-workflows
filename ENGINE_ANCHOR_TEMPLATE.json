@@ -1,0 +1,19 @@
+{
+  "engine_id": "CORD",
+  "engine_name": "origin_core",
+  "seed": 0,
+  "role": "origin_core",
+  "visibility": "public",
+  "sha256_anchor": "6C0F6F48",
+  "locator": "LKMINI://CORD/0",
+  "manifest_ref": "CORD/0",
+  "snapshot_ref": "CORD/0",反推鏈引用
+  "reversechain_ref": "CORD/0",
+  "public_disclosure": "hash_only",
+  "rule": "A equals A",
+  "slot_limit": 3,
+  "slots": ,
+  "empty_slot_fill": "identity_matrix",
+  "reversible": true,
+  "vectorized": true
+}
