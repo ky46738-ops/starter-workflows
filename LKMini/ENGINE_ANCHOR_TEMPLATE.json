@@ -13,7 +13,7 @@
   "rule": "A = A",
   "slot_limit": 3,
   "slots": ["entry", "reinforce", "exit"],
-  "empty_slot_fill": "identity_matrix",
+  "empty_slot_fill": "mirror_identity",
   "reversible": true,
   "vectorized": true
 }
