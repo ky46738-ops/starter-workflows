@@ -53,3 +53,17 @@
 | Gmail | PASS | 純文字紀錄已寄出至 ky46738@gmail.com |
 | Google Drive | PASS | 本文件已建立 |
 | Notion | PASS | 頁面寫入時間：20260521_TPE |
+
+## 📍向量圖對照索引｜VectorIndex
+
+metadata_sha256: `6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34`
+
+| 索引欄位 | 對應內容 |
+|---|---|
+| 私人備份提交｜PrivateCommit | `39fcca18d0878df5c054e0063381549cd54b77e1` |
+| 向量圖｜Vector | 🧩最小可逆世界核心，綠框文字向量圖 |
+| GPT 檔案庫檔名｜LibraryFileName | `LKMini1.svg` |
+| 同內容名稱｜EquivalentName | 🧩LK Mini 最小可逆世界核心｜LK Mini Minimal Reversible World Core.svg |
+| GitHub 公開原圖｜PublicVector | [LKMini/LKMini.svg](./LKMini.svg) |
+
+本索引沿用上方公開／私人種子來源紀錄，補齊 GPT 檔案庫向量圖的名稱對應。提交號碼是來源定位鍵，不要求印在 SVG 圖內；本次更新不構成私人歷史提交的重新讀回驗證。固定 metadata_sha256 是指定識別值，與檔案內容雜湊分開。
